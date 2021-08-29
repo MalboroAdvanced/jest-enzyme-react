@@ -1,9 +1,12 @@
 import React from "react";
+import Ticket from "./components/Ticket";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="App">
+      <Ticket name="Ticket" />
+      <Footer />
     </div>
   );
 }
